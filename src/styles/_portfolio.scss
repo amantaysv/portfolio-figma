@@ -1,0 +1,21 @@
+.portfolio {
+  padding-top: 113px;
+  padding-bottom: 96px;
+  background-color: $background-color;
+  text-align: center;
+
+  &__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin: 45px 0 99px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: 47px;
+  }
+}

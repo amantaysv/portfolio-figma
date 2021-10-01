@@ -1,0 +1,25 @@
+$primary-color: #070707;
+$secondary-color: #828282;
+$background-color: #f6f6f6;
+$font-family: 'Gilroy';
+
+.title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  opacity: 50%;
+  display: none;
+  &.active {
+    display: block;
+  }
+}
