@@ -7,6 +7,10 @@
   .wrapper {
     padding-top: 10px;
     padding-bottom: 10px;
+
+    img {
+      max-width: 120px;
+    }
   }
 
   &__title {
@@ -27,18 +31,5 @@
     margin-bottom: 40px;
     text-transform: capitalize;
     margin-top: 24px;
-  }
-
-  &__container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  &__figma {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
   }
 }
